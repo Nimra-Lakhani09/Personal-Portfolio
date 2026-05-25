@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+
+.explore{
+    background-color: #1B9AAA;
+
+}
+
+.cv{
+    background-color: transparent;
+    color: #1B9AAA;
+    border: 2px solid #1B9AAA;
+}
+
+.explore:hover{
+    background-color: #0b7d8c;
+}
+
+.project{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #1B9AAA;
+    border-radius: 22px;
+}
+
+.code{
+    height: 430px;
+    filter: grayscale();
+}
+.code:hover{
+    filter: none;
+    cursor: pointer;
+}
+
+.girlpic{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 130px;
+    margin-right: 240px;
+  
+}
+.girl{
+border-radius: 2000px;
+margin-left: 90px;
+}
+
+
+.about{
+    margin-top: 60px;
+}
+
+
+.hero{
+    margin-top: 50px;
+}
+
+/* From Uiverse.io by Creatlydev */ 
+.button {
+  line-height: 1;
+  text-decoration: none;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--clr);
+  color: #fff;
+  border-radius: 10rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  padding-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background-color 0.3s;
+  margin-top: 50px;
+}
+
+.button__icon-wrapper {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  color: var(--clr);
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #1B9AAA;
+  
+}
+
+.button:hover .button__icon-wrapper {
+  color: #000;
+}
+
+.button__icon-svg--copy {
+  position: absolute;
+  transform: translate(-150%, 150%);
+}
+
+.button:hover .button__icon-svg:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(150%, -150%);
+}
+
+.button:hover .button__icon-svg--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+
+.pro{
+    background-color: white;
+    color: #1B9AAA;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid #1B9AAA;
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
